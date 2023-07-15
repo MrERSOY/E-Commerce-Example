@@ -15,7 +15,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <header>
-          "KALİTE TESADÜF DEĞİLDİR." Mağazamızda kaliteli ürünler bulunmaktadır.
+          KALİTE TESADÜF DEĞİLDİR. Mağazamızda kaliteli ürünler bulunmaktadır.
         </header>
         {children}
         <footer>Footer</footer>
