@@ -14,9 +14,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header>
-          KALİTE TESADÜF DEĞİLDİR. Mağazamızda kaliteli ürünler bulunmaktadır.
-        </header>
         {children}
         <footer>Footer</footer>
       </body>
