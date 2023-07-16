@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        remotePatterns: [{
-            protocol: 'https',
-            hostname: 'fakestoreapi.com',
 
-        }]
+
+        domains: ['fakestoreapi.com', 'assets.wfcdn.com'],
+
+
     }
 }
 

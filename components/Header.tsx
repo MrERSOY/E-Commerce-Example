@@ -3,12 +3,12 @@ import Link from "next/link";
 
 function Header() {
   return (
-    <header className="flex items-center px-4 md:px-12 py-2 justify-between fixed top-0 w-full bg-white z-shadow shadow">
+    <header className="flex items-center px-4 md:px-12 py-2 justify-between fixed top-0 w-full bg-white z-50 shadow">
       <Link href={"/"}>
         <Image
-          src="https://secure.img1-cg.wfcdn.com/im/59113267/compr-r85/2190/219090901/flea-market-banner-sign.jpg"
-          width={70}
-          height={70}
+          src="https://assets.wfcdn.com/im/61175718/resize-h800-w800%5Ecompr-r85/2190/219090901/Flea+Market+Banner+Sign.jpg"
+          width={100}
+          height={100}
           alt="Logo"
         />
       </Link>

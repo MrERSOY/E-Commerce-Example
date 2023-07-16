@@ -5,7 +5,7 @@ import { useState } from "react";
 
 type Props = {
   product: Product;
-  fill: boolean;
+  fill?: boolean;
 };
 
 function ProductImage({ product, fill }: Props) {
