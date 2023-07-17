@@ -10,6 +10,7 @@ type Props = {
 
 function ProductImage({ product, fill }: Props) {
   const [loading, setLoading] = useState(true);
+
   return (
     <>
       {fill ? (

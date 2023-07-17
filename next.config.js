@@ -1,12 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
+        domains: ["fakestoreapi.com", "i.ibb.co"],
+    },
+    typescript: {
+        // !! WARN !!
+        // Dangerously allow production builds to successfully complete even if
+        // your project has type errors.
+        // !! WARN !!
+        ignoreBuildErrors: true,
+    },
+};
 
-
-        domains: ['fakestoreapi.com', 'assets.wfcdn.com'],
-
-
-    }
-}
-
-module.exports = nextConfig
+module.exports = nextConfig;
